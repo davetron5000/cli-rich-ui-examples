@@ -1,0 +1,8 @@
+doc
+html
+*.sw?
+pkg
+coverage
+.bundle
+cruddo.rdoc
+gli.wiki
