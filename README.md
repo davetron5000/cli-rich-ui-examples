@@ -11,8 +11,8 @@ examples and writing the book.
     gem install rvm
     # set up rvm as per the instructions given after the install
     # This is VERY important or rvm won't work right
-    rvm install 1.9.2
-    rvm use 1.9.2
+    rvm install 1.9.2-p0
+    rvm use 1.9.2-p0
     rvm gemset create cli-rich-ui-examples
     rvm gemset use cli-rich-ui-examples
     git clone git@github.com:davetron5000/cli-rich-ui-examples.git
@@ -21,6 +21,10 @@ examples and writing the book.
     # ruby version and gemset, say yes
     gem install bundler
     bundle install
+    cd test_setup
+    cucumber
+
+If you see all green, you're good to go!
 
 
 
